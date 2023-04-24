@@ -1,0 +1,45 @@
+body {
+  background-color: 
+#2d343d;
+}
+
+h1 {
+  font-family:'Courier New', Courier, monospace;
+  color: #da4876;
+  font-size: 50px;
+}
+
+button{
+   font-family:'Courier New', Courier, monospace;
+   background-color:  #2d343d;
+   color: #939eae;
+   text-align: center;
+   border-style: none;
+   font-size: 32px;
+}
+button:hover{
+   font-family:'Courier New', Courier, monospace;
+   background-color:  #2d343d;
+   color: #e5e8ec ;
+   text-align: center;
+   border-color: none;
+   font-size: 32px;
+}
+button:active{
+   font-family:'Courier New', Courier, monospace;
+   background-color:  #2d343d;
+   color: #939eae;
+   text-align: center;
+   border-color: none;
+   font-size: 32px;
+}
+p{
+  font-family:'Courier New', Courier, monospace;
+  color:#e5e8ec;
+  font-size: 25px;
+}
+p:link{
+  font-family:'Courier New', Courier, monospace;
+  color:#da4876;
+  font-size: 25px;
+}
