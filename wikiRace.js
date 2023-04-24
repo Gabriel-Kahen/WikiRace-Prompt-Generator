@@ -12,7 +12,7 @@ class WikiRace {
 		var link = 'https://en.wikipedia.org/wiki/';
 		link = link + ${start};
 		link = link.replace(/ /g,"_");
-		const ret = `Start: ${start}   (<a href = ${link} target = "_blank">${link}<\a>)<br>Destination: ${destination}`;
+		const ret = `Start: ${start}   (<a href = ${link} target = "_blank" color = #da4876>${link}<\a>)<br>Destination: ${destination}`;
 		document.getElementById('ret').innerHTML = ret;
 	}
 }
