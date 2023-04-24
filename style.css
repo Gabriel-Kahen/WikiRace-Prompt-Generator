@@ -1,6 +1,5 @@
 body {
-  background-color: 
-#2d343d;
+  background-color: #2d343d;
 }
 
 h1 {
@@ -42,4 +41,9 @@ p:link{
   font-family:'Courier New', Courier, monospace;
   color:#da4876;
   font-size: 25px;
+}
+div{
+  font-family:'Courier New', Courier, monospace;
+  color:#da4876;
+  font-size: 15px;
 }
