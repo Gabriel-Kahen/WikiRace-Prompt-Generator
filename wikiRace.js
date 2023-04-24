@@ -9,7 +9,8 @@ class WikiRace {
 	start() {
 		const start = this.infoArray[Math.floor(Math.random() * this.infoArray.length)];
 		const destination = this.infoArray[Math.floor(Math.random() * this.infoArray.length)];
-		var link = "https://en.wikipedia.org/wiki/${start}";
+		var link = 'https://en.wikipedia.org/wiki/';
+		link = link + ${start};
 		link = link.replace(/ /g,"_");
 		const ret = `Start: ${start}   (<a href = ${link} target = "_blank">${link}<\a>)<br>Destination: ${destination}`;
 		document.getElementById('ret').innerHTML = ret;
