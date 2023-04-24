@@ -11,7 +11,7 @@ class WikiRace {
 		const destination = this.infoArray[Math.floor(Math.random() * this.infoArray.length)];
 		var link = "https://en.wikipedia.org/wiki/${start}>https://en.wikipedia.org/wiki/+${start}";
 		link = link.replace(/ /g,"_");
-		const ret = "Start: ${start}   (<a href = ${link} <\a>)<br>Destination: ${destination}" style="color:#da4876;";
+		const ret = "Start: ${start}   (<a href = ${link} <\a>)<br>Destination: ${destination}";
 		document.getElementById('ret').innerHTML = ret;
 	}
 }
